@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  jekyll-site:
+    build: .
+    ports:
+      - "8080:80"
