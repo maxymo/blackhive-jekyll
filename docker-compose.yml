@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   jekyll-site:
-    build: .
+    image: ghcr.io/maxymo/blackhive-jekyll:latest
     ports:
       - "5004:80"
+    restart: unless-stopped
