@@ -4,4 +4,4 @@ services:
   jekyll-site:
     build: .
     ports:
-      - "8080:80"
+      - "5004:80"
